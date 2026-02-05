@@ -32,10 +32,13 @@ entire workflow can be reproduced with any compatible dataset.
 ## DIRECTORY STRUCTURE ##
 #########################
 
-### - visuals/
-####     Exported PNG images of all dashboard views (no data shown)
+### - Data Visualization Dashboard.PNG
+####     Exported PNG image of dashboard view
 
-### - powerquery_script.m
+### - Data Visualization.pbix
+####     Main Power BI file
+
+### - MasterData_Cleaning.m
 ####     Full Power Query M script used to clean, transform, and prepare the dataset, including:
 - Automated SharePoint file retrieval
 - Column type cleaning
